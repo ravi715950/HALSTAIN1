@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/elite-realityy/static/css/main.199f4d3c.css",
+    "main.js": "/elite-realityy/static/js/main.eed9ed31.js",
+    "static/media/h1-rev-img-01.jpg": "/elite-realityy/static/media/h1-rev-img-01.83f1772379e787d15154.jpg",
+    "static/media/h1-rev-img-02.jpg": "/elite-realityy/static/media/h1-rev-img-02.5f253660b13c450db539.jpg",
+    "static/media/h1-rev-img-03.jpg": "/elite-realityy/static/media/h1-rev-img-03.67e1246d9f2a573b736c.jpg",
+    "static/media/girl.jpg": "/elite-realityy/static/media/girl.0f271a823b8d8042ca65.jpg",
+    "index.html": "/elite-realityy/index.html",
+    "main.199f4d3c.css.map": "/elite-realityy/static/css/main.199f4d3c.css.map",
+    "main.eed9ed31.js.map": "/elite-realityy/static/js/main.eed9ed31.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.199f4d3c.css",
+    "static/js/main.eed9ed31.js"
+  ]
+}
