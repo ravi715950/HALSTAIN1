@@ -1,0 +1,117 @@
+.content-background-img{
+  background-image: url("https://halstein.qodeinteractive.com/wp-content/uploads/2021/10/h2-img-02.jpg");
+}
+
+.mainContainer{
+margin-bottom: 250px;
+}
+
+.arrow a{
+    text-decoration: none;
+    color: black;
+}
+.applynow-background{
+  background-color: #e9e6e1;
+}
+.ontop{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+.visibility-hidden{
+  visibility : hidden;
+
+}
+.d-relative{
+  position: relative;
+}
+
+.onBottom{
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+}
+@media (max-width :425px) {
+  .mobile-size{
+    font-size: 20px;
+  }
+  p.mobile-size{
+    font-size: 12px;
+  }
+}
+
+  .main1{
+    font-size: 2.2rem;
+    color: #14203b;
+  }
+  
+  .main2{
+    font-size: 16px;
+    color: #6f6d6d;
+  } 
+  
+  .main3{
+    
+    font-size: 2.2rem;
+    color: #14203b;
+  } 
+  
+
+/* .content-background-img{
+    background-image: url("https://halstein.qodeinteractive.com/wp-content/uploads/2021/10/h2-img-02.jpg");
+  }
+  .arrow a{
+      text-decoration: none;
+      color: black;
+  }
+  .applynow-background{
+    background-color: #e9e6e1;
+  }
+  .ontop{
+      position: absolute;
+      top: 50px;
+      left: 70px;
+  } */
+
+  /* .main1{
+    font-size: 2.2rem;
+    color: #14203b;
+  }
+  .main2{
+    font-size: 16px;
+    color: #6f6d6d;
+  } */
+  
+  /* .main{
+    position: absolute;
+  } */
+  /* .visibility-hidden{
+    visibility : hidden;
+  
+  } */
+  /* .d-relative{
+    position: relative;
+  } */
+  
+  /* .main3{
+    position: absolute;
+    bottom: 50px;
+    left: 70px;
+    color: #14203b;
+  } */
+  
+  /* .nextlogo{
+    position: absolute;
+    bottom: 30px;
+    left: 250px;
+
+  } */
+
+  /* @media (max-width :425px) {
+    .mobile-size{
+      font-size: 20px;
+    }
+    p.mobile-size{
+      font-size: 12px;
+    }
+  } */

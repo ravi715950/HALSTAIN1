@@ -1,0 +1,79 @@
+
+
+.logo-img img
+{
+  width: 9rem;
+  
+}
+
+.social-links{
+  
+  background-color: #fff;
+  color: #b08e61;
+  border-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 500;
+  height: 30px;
+  letter-spacing: 0;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: color .3s ease-out,background-color .3s ease-out;
+  width: 30px;
+  border: 1px solid #fff;
+
+
+}
+.social-links:hover{
+  background-color:#170802;
+  color: #fff;
+
+}
+a{
+  text-decoration: none;
+  color: #fff;
+    transition: color .3s ease-out;
+    cursor: pointer;
+
+}
+a:hover{
+  color: #7b7975;
+}
+.social-links{
+  display: inline-block;
+  margin-right: 20px;
+
+
+}
+
+.list{
+  margin: 0 0 75px;
+  color: #fff;
+}
+.list-item{
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.right-arrow-btn{
+  display: inline-block;
+  background-color: transparent;
+  color: #fff;
+}
+
+.border-top{
+  border-top: solid 1px #201f1fae ;
+  border-color: #201f1fae;
+}
+
+.bg-footer-img{
+  background-image: url("https://halstein.qodeinteractive.com/wp-content/uploads/2022/01/footer-img-2.jpg");
+}
+
+.margin-y-30px{
+  font-family: Marcellus,serif; 
+}

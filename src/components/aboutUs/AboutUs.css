@@ -1,0 +1,10 @@
+
+.back-div{
+    height: 549px;
+    background-image: url("https://halstein.qodeinteractive.com/wp-content/uploads/2021/10/p1-title-img-01.jpg");
+display: flex;
+align-items: center;
+background-size:     cover;                  
+background-repeat:   no-repeat;
+background-position: center center;   
+}

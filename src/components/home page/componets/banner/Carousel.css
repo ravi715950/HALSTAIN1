@@ -1,0 +1,139 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+/* .logo{
+width: 90%;     
+} */
+
+.border-1{
+border-right: 1px solid #b2aeae;         
+
+}
+.border-2{
+border-bottom: 1px solid #b2aeae;         
+
+}
+
+li{
+list-style: none;
+display: flex;
+justify-content: flex-end;
+}
+
+.infologo{
+border-left:1px solid #b2aeae;
+}
+.reviewb{
+   color:#14203b ;
+   font-size: 45px;
+  }
+  
+  #reviewy{
+    font-size: 45px;
+ color: #B29063;
+}
+
+h6{
+    color: #B29063;
+    padding-top: 50PX;
+    letter-spacing: 3px;
+
+}
+
+
+
+.nav-link{
+  font-size: 13px;
+  font-weight: 700;
+  color: #6f6d6d;
+  
+
+}
+  
+
+  
+    @media screen and (max-width: 800px) {
+      .column {
+        flex: 100%;
+        max-width: 100%;
+      }
+    
+    }
+    
+  
+    @media screen and (max-width: 600px) {
+      .column {
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
+
+    .carousel-item{
+      position: relative;
+    }
+
+    @keyframes zoom{
+      from{
+        -webkit-transform:scale(1, 1);
+      }
+      to{
+        -webkit-transform:scale(1.5, 1.5);
+      }
+    }
+    .carousel-item img{
+     -webkit-animation:zoom 20s;
+     animation: zoom 20s;
+    }
+    .slider-over{
+      position: absolute;
+      top: 300px;
+      left: 70px;
+      color: #fff;
+    }
+
+    .slider-over h5{
+      font-size:12px ;
+      letter-spacing: 4px;
+    }
+    .slider-over h1{
+      font-size:65px ;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      color: #fff;
+        
+    
+    }
+
+    .hero-btn{
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      padding: 12px 60px;
+      font-size: 13px;
+      border: 1px solid white;
+      background: transparent;
+      position: relative;
+      cursor: pointer;
+      
+      
+    }
+    
+    .hero-btn:hover {
+      border: 1px solid #fff;
+      background-color: #fff;
+      color: #000;
+     
+    }
+
+    .pic{
+      position: relative;
+    }
+
+    .pic-text{
+      position: absolute;
+      top: 250px;
+      left: 50px;
+      color: #fff;
+    }
