@@ -25,14 +25,15 @@ function Footer() {
 
     <div className="border-top">
     <Container>
-       <div className="row">
-        <div className="col-md-6">
+       <div className="row p-3">
+        <div className="col-md-9">
           <p>
           © 2022 
-          <a href="/"> Elite reality</a>
+          <a href="/"> Elite realty</a>
           , All Rights Reserved
           </p>
         </div>
+        <div className="col-md-3"><p>Designed by : <a href="/"> BMDU </a></p></div>
       </div>
     </Container>
         </div>

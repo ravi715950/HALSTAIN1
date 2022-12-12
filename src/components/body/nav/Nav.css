@@ -17,13 +17,20 @@ li {
   list-style: none;
   display: flex;
   justify-content: flex-start;
+  
 }
 
 .infologo {
   border-left: 1px solid #b2aeae;
 }
 
-
+ul.elite li {
+  margin: 0px 38px 0px 10px;
+  color:#6f6d6d ;
+  font-size: 13px;
+  
+  font-family: "Montserrat", sans-serif;
+}
 
 .nav-link {
   font-size: 13px;
@@ -57,7 +64,7 @@ li {
 small{
   color:#6f6d6d ;
   font-size: 13px;
-  font-family: "Poppins", sans-serif;
+  
  
 } 
 
@@ -68,4 +75,19 @@ small{
 
 a.navbar-brand {
   padding: 40px;
+}
+
+a.navbar-brand.d-block.d-lg-none.nav-link {
+  padding: 0;
+}
+
+.d-inline-flex.align-items-center.py-2.px-4 {
+  border-right: 1px solid gray;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
 }

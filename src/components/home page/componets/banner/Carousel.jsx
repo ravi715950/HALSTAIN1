@@ -12,6 +12,7 @@ function Carousel() {
   id="carouselExampleFade"
   className="carousel slide carousel-fade"
   data-bs-ride="carousel"
+  pause="false"
 >
   <div className="carousel-inner">
     <div className="carousel-item active">

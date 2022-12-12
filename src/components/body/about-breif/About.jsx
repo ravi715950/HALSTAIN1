@@ -6,7 +6,7 @@ export default function About(props) {
   <div className="about-breif">
  <Container>
      <div className="about-content p-4 m-2">
-      <h2>{" "} {props.title1} <span className="brown-color">{props.title2}</span>{props.title3}
+      <h2 className='about-content-heading'>{" "} {props.title1} <span className="brown-color">{props.title2}</span>{props.title3}
       </h2>
       <h6 className="about-name">
       {props.ceo}

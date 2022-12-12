@@ -1,5 +1,4 @@
 import React from 'react'
-// import Carousel from './componets/Carousel';
 import About from '../body/about-breif/About';
 import Features from './componets/features/Features';
 import BusinessServies from './componets/businessServies/BusinessServies';

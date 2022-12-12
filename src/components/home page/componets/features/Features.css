@@ -5,3 +5,14 @@
 .content-box {
     padding-top: 30px;
 }
+
+/* .digit {
+    font-weight: 400;
+    line-height: 1;
+    font-size: 100px;
+} */
+
+span.digit span {
+    
+    font-family: Marcellus, serif;
+}
