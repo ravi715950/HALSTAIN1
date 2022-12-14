@@ -8,7 +8,7 @@ const Contnent = () => {
                 
                 <h1 className='text-center p-5 brown-color'>About us</h1>
                 <p  className='text-center p-4'>
-                Elite Reality is a Business Consulting Firm, offering consultancy services to investors who intend setting up new businesses in the field of wholesale, retail, distribution and service- provider’s landscape. Our team of professionals who bring in years of expertise in various business verticals, assist clients to set-up new business ventures by way of owning franchise of prominent business brands or set-up independent business from ground up.
+                Elite Realty is a Business Consulting Firm, offering consultancy services to investors who intend setting up new businesses in the field of wholesale, retail, distribution and service- provider’s landscape. Our team of professionals who bring in years of expertise in various business verticals, assist clients to set-up new business ventures by way of owning franchise of prominent business brands or set-up independent business from ground up.
                 </p>
                 <p className='text-center p-4'>
                 We provide clients with time tested proven business concepts and models. Our team helps you to choose a business category or a franchise brand that aligns best with you passion and personality. Everyone wants to go to work and do something that they love. If you are going to invest in a business, it should be in something you are passionate about. We offer multiple pre-screened and qualified list of choices in many business categories. This enables our clients to steer away from business concepts or franchise brands that appear good on paper but facts relate otherwise.

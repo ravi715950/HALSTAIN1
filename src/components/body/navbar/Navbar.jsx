@@ -1,24 +1,18 @@
-
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import { NavLink } from 'react-bootstrap';
-import './Nav.css'
-import logo from '../../../images/logos/logo-ER.png'
-import logo1 from '../../../images/carosel/info-after.png'
+import './Navbar.css'
+import { NavLink } from 'react-router-dom';
 
 
 
-function Navb() {
+const Navbar=()=> {
   return (
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-3 d-none d-lg-block border-1">
             <NavLink
-              href="index.html"
+              to="/"
               className="navbar-brand d-flex align-items-center justify-content-center"
               >
-              <img className="logo" src={logo} alt="img" />
+              <h2>HALSTAIN</h2>
             </NavLink>
           </div>
           <div className="col-lg-9">
@@ -30,17 +24,11 @@ function Navb() {
                    <li>Mon-Fri 9am-5pm</li>
                 </ul>
               </div>
-              <NavLink to="/" className="navbar-brand d-block d-lg-none">
-                <h1 className="m-0 display-4">
-                  <img src={logo} alt="img" />
-                </h1>
-              </NavLink>
+             
             </div>
             <nav className="navbar navbar-expand-lg bg-white navbar-light p-0">
               <NavLink to="/" className="navbar-brand d-block d-lg-none">
-                <h1 className="m-0 display-4">
-                  <img src={logo} alt="img" />
-                </h1>
+              <h1 className="m-0 display-4 text-dark text-uppercase">HALSTAIN</h1>
               </NavLink>
               <button
                 type="button"
@@ -61,22 +49,16 @@ function Navb() {
                   <NavLink to="/aboutus" className="nav-item nav-link px-4 ">
                     ABOUT US
                   </NavLink>
-                  <NavLink to="/aboutus" className="nav-item nav-link px-4">
+                  <NavLink to="/services" className="nav-item nav-link px-4">
                   SERVICES
                   </NavLink>
-                  <NavLink to="/aboutus" className="nav-item nav-link px-4">
-                  BRANDS
-                  </NavLink>
-                  <NavLink to="/aboutus" className="nav-item nav-link px-4">
+                  
+                  <NavLink to="/contactus" className="nav-item nav-link px-4">
                   CONTACT US
                   </NavLink>
-                  <NavLink to="/aboutus" className="nav-item nav-link px-4">
-                  BLOG
-                  </NavLink>
+                 
                 </div>
-                <NavLink to="/" className="infologo mr-3 d-none d-lg-block ">
-                  {/* <img src={logo1} alt="" /> */}
-                </NavLink>
+               
                 
               </div>
             </nav>
@@ -86,7 +68,7 @@ function Navb() {
   );
 }
 
-export default Navb;
+export default Navbar;
 
 
 

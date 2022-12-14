@@ -29,11 +29,11 @@ function Footer() {
         <div className="col-md-9">
           <p>
           © 2022 
-          <a href="/"> Elite realty</a>
+          
           , All Rights Reserved
           </p>
         </div>
-        <div className="col-md-3"><p>Designed by : <a href="/"> BMDU </a></p></div>
+        <div className="col-md-3"><p>Designed by : <a href="/"> Ravindra Raghav </a></p></div>
       </div>
     </Container>
         </div>

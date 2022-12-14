@@ -1,13 +1,13 @@
 import React from 'react'
 
-import logo from '../../../images/logos/logo-ER.png'
 import './Footer.css'
 export default function Left() {
   return (
     <div>
 
-    <div className='logo-img'>
-<img src={logo} alt="logo" />
+    <div className="m-0 display-4 text-uppercase ">
+
+<h2 className="logo3">Halstain</h2>
     </div>
 <p className='margin-y-30px'>
     Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br/> Itaque voluptatem facilis corrupti dicta.<br/> Cupiditate magni, modi rem,  Nam iusto accusantium consequuntur?

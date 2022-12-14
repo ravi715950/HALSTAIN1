@@ -3,10 +3,6 @@
   
 }
 
-/* .logo{
-width: 90%;     
-} */
-
 .border-1{
 border-right: 1px solid #b2aeae;         
 
@@ -15,6 +11,8 @@ border-right: 1px solid #b2aeae;
 border-bottom: 1px solid #b2aeae;         
 
 }
+
+
 
 li{
 list-style: none;

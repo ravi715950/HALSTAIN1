@@ -8,3 +8,21 @@ background-size:     cover;
 background-repeat:   no-repeat;
 background-position: center center;   
 }
+.back-div2{
+    height: 549px;
+    background-image: url("https://images.unsplash.com/photo-1629904853893-c2c8981a1dc5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+display: flex;
+align-items: center;
+background-size:     cover;                  
+background-repeat:   no-repeat;
+background-position: center center;   
+}
+.back-div3{
+    height: 549px;
+    background-image: url("https://images.unsplash.com/photo-1534536281715-e28d76689b4d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+display: flex;
+align-items: center;
+background-size:     cover;                  
+background-repeat:   no-repeat;
+background-position: center center;   
+}

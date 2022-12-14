@@ -1,13 +1,13 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import "../AboutUs.css";
-const Title = () => {
+const Title = (props) => {
   return (
-    <div className="back-div">
+    <div className={props.cName}>
       <Container>
       <div className="in-bw">
-        <h1>About Us</h1>
-        <h6 className="black-color">Elite Reality</h6>
+        <h1>{props.title}</h1>
+       
       </div>
       </Container>
     </div>

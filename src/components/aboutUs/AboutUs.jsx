@@ -9,7 +9,10 @@ import Title from './componets/Title';
 const AboutUs = () => {
     return (
         <div>
-          <Title/>
+          <Title
+          cName="back-div"
+          title="About Us"
+          />
           <About
           title1 = {"Launch your creative ideas. Whatever you "}
           title2 ={"imagine we"}
